@@ -11,7 +11,7 @@ erzeugt aus wenigen versteckten Faktoren – dieselbe gekrümmte Fläche, an der
 **geodätische** Abstände entlang eines Nachbarschaftsgraphen und entrollt so die gebogene Fläche. Es hat dafür **eigene Schwächen**, die die Demo live zeigt:
 ```
 pca-demo → isomap-demo   (Linearität → geodätische Abstände; eigene Schwäche: Kurzschluss-Kanten, Zusammenhang, Rauschen, O(n³), kein Out-of-sample)
-pca-demo → LLE | t-SNE → UMAP → PaCMAP | Autoencoder   (weitere Äste, noch nicht gebaut)
+pca-demo → LLE | t-SNE → UMAP → PaCMAP | Autoencoder   (weitere Äste, inzwischen gebaut: lle-demo, tsne-demo, umap-demo, pacmap-demo, autoencoder-demo)
 ```
 
 ## Was die Demo zeigt
@@ -101,6 +101,4 @@ pytest tests/ -v
 
 ---
 
-Teil des [Operations-Research-Demo-Portfolios](https://sebastianhanisch.net/demos.html) von
-[Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning.
-Interesse an einer maßgeschneiderten Lösung? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html).
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Dimensionsreduktion: von PCA bis Autoencoder](https://sebastianhanisch.net/konzepte-dimensionsreduktion.html).
