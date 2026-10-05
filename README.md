@@ -16,7 +16,7 @@ pca-demo → LLE | t-SNE → UMAP → PaCMAP | Autoencoder   (weitere Äste, inz
 
 ## Was die Demo zeigt
 
-1. **Isomap in Aktion** (Schritt-Slider + Abspielen): Nachbarschaftsgraph → kürzester Weg zwischen den beiden am weitesten entfernten Touren (gegen die Luftlinie) →
+1. **Isomap in Aktion** (Schritt-Slider + Abspielen): Nachbarschaftsgraph → kürzester Weg zwischen den beiden Touren an den Enden der ersten Hauptachse (gegen die Luftlinie) →
    Luftlinie gegen Weg für viele Tourenpaare → Einbettung neben der PCA.
 2. **Was Isomap gefunden hat:** eingebettete Touren, Dimensionsschätzung (Knick der **Residualvarianz**), R² der wahren Faktoren gegen PCA, Trustworthiness gegen PCA.
 3. **📐 Wie stark hängt das Ergebnis von k ab?** (live über feste Sweep-Seeds ab 100000, unabhängig vom Demo-Seed): Residualvarianz bei q Dimensionen, R², Kurzschluss-Anteil und

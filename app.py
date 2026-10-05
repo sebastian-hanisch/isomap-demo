@@ -211,7 +211,7 @@ if step == 1:
     st.caption(f"Graph mit **k = {res.k}**: {len(res.edges):,} Kanten zwischen {res.n} Touren. Ist er nicht zusammenhängend, zerfällt er in Teile - dann gibt es zwischen ihnen keinen Weg.".replace(",", "."))
 elif step == 2:
     st.caption(
-        f"Zwischen den beiden weitest entfernten Touren (Sterne) liegt die **Luftlinie** bei {air:.1f}, der **kürzeste Weg** durch den Graphen bei {path_len:.1f} "
+        f"Zwischen den beiden Touren an den Enden der ersten Hauptachse (Sterne) liegt die **Luftlinie** bei {air:.1f}, der **kürzeste Weg** durch den Graphen bei {path_len:.1f} "
         f"({path_len / air:.2f}× so lang). Je gebogener die Fläche, desto größer der Umweg."
     )
 elif step == 3:
